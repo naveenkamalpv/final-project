@@ -33,7 +33,7 @@ Each trip is anonymized and includes:
 - User Type (Subscriber or Customer – “Subscriber” = Member or “Customer” = Casual)
 
 
-**The following issues were found and resolved:**
+### The following issues were found and resolved:
 
 - start_station_id, end_station_id and bike_id are not string types
 - start_station_id, start_station_name, end_station_id, end_station_name have some null values
@@ -78,3 +78,17 @@ Some variables had a high positive or negative correlation
 - start station latitude vs start station longitude
 - start station longitude vs end station latitude
 - end station longitude vs end station latitude
+
+## Key insights:
+
+- Non-subscribers have a more homogenous pattern of bike usage and help to better utilize the bikes during the day
+
+- The efficient/short period of usage for subscribers corresponds to their high concentration on rush hours Monday through Friday,      indicating the use is primarily for work commute.
+
+- The service is pre-dominantly distributed among the three regions - San Francisco, East Bay and San Jose.
+
+- Usually the average type spent per trip is more by the customer when compared to the subscriber.
+
+- Subscribers usually use the service during the weekdays , whereas the customers seem to use it during the weeends.
+
+- From all the above observations we can infer that, the subscribers are probably those who use the service to get to work or school (as they use the service on weekdays and during the peak hours of the day). The customers, on the other hand, use the service during the weekends, so they are probably just casual users those who use the service for fun purpose.
